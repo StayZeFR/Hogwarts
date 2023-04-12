@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Hogwarts:jar">
+    <output-path>$PROJECT_DIR$/../../../Serveur MC/Serveur 1.19.2/plugins</output-path>
+    <root id="archive" name="Hogwarts.jar">
+      <element id="module-output" name="Hogwarts" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+name: "Hogwarts"
+version: "1.0.0"
+author: "StayZe"
+main: fr.stayze.Hogwarts
+api-version: 1.19
