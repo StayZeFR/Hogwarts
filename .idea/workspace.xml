@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa8e83c7-2f67-45bf-b32f-8d11146ed5b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/utils/ItemBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_36_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/HogwartsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/database/hogwarts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/player/PlayerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/utils/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/PlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/PlayerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/Hogwarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/Hogwarts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/PlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/player/PlayerInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/events/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/events/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/items/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/items/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/items/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/stayze/utils/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/stayze/utils/ItemBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,12 +60,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Developments/Dependencies/jar/spigot-api-1.19.2.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Developments/Dependencies/jar/sqlite-jdbc-3.36.0.3.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -86,6 +97,8 @@
       <workItem from="1681250374467" duration="424000" />
       <workItem from="1681284068262" duration="4208000" />
       <workItem from="1681288296212" duration="759000" />
+      <workItem from="1681315711926" duration="1765000" />
+      <workItem from="1681328319433" duration="3876000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package fr.stayze;
+package fr.stayze.player;
 
 import fr.stayze.items.Wand;
 import fr.stayze.spells.Spell;

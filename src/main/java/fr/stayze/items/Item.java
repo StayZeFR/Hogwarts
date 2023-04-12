@@ -1,6 +1,6 @@
 package fr.stayze.items;
 
-import fr.stayze.PlayerInfo;
+import fr.stayze.player.PlayerInfo;
 import org.bukkit.inventory.ItemStack;
 
 abstract class Item {

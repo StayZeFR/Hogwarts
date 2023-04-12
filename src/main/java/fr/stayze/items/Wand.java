@@ -1,9 +1,8 @@
 package fr.stayze.items;
 
-import fr.stayze.PlayerInfo;
+import fr.stayze.player.PlayerInfo;
 import fr.stayze.utils.ItemBuilder;
 import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class Wand extends Item {
 

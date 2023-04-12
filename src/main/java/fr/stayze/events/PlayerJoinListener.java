@@ -14,14 +14,14 @@ public class PlayerJoinListener implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
-        if (Hogwarts.getPlayer(p) == null) { Hogwarts.addPlayer(p); }
+        if (Hogwarts.getInstance().getPlayer(p) == null) { Hogwarts.getInstance().addPlayer(p); }
         Incendio incendio = new Incendio();
         incendio.setSpellLevel(5);
-        Hogwarts.getPlayer(p).addSpell(incendio);
-        for (Spell spell : Hogwarts.getPlayer(p).getSpells()) {
+        Hogwarts.getInstance().getPlayer(p).addSpell(incendio);
+        for (Spell spell : Hogwarts.getInstance().getPlayer(p).getSpells()) {
             Bukkit.broadcastMessage(spell.toString());
         }
-        Hogwarts.getPlayer(p).getWand().give();
+        Hogwarts.getInstance().getPlayer(p).getWand().give();
     }
 
 }
