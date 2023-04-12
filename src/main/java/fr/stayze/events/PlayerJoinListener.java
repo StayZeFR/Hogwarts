@@ -21,6 +21,7 @@ public class PlayerJoinListener implements Listener {
         for (Spell spell : Hogwarts.getPlayer(p).getSpells()) {
             Bukkit.broadcastMessage(spell.toString());
         }
+        Hogwarts.getPlayer(p).getWand().give();
     }
 
 }
